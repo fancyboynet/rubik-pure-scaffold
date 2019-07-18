@@ -1,1 +1,1 @@
-# rubik-demo
+# rubik-pure-scaffold
