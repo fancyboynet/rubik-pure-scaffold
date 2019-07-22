@@ -14,3 +14,5 @@ axios.get('/data').then(data => {
 })
 document.querySelector('#part').innerHTML = partHtml
 document.querySelector('#svg').innerHTML = svgPlay
+
+new Date()
