@@ -38,7 +38,7 @@
     }
   },
   "lint-staged": {
-    "src/**/*.js": [
+    "*.{js}": [
       "rubik lint",
       "git add"
     ]
