@@ -18,13 +18,13 @@
   "author": "Fancy <fancyboynet@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "cross-env": "^5.2.0",
-    "husky": "^3.0.0",
-    "lint-staged": "^9.1.0",
-    "rubik-cli": "^0.6.0"
+    "cross-env": "latest",
+    "husky": "latest",
+    "lint-staged": "latest",
+    "rubik-cli": "latest"
   },
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "latest"
   },
   "husky": {
     "hooks": {
