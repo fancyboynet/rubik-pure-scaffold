@@ -38,6 +38,9 @@
   "lint-staged": {
     "src/**/*.js": [
       "rubik lint",
+      "git add"
+    ],
+    "src/**/*.{css,scss,sass,less}": [
       "rubik stylelint --fix",
       "git add"
     ]
