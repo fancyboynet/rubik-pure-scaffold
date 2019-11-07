@@ -7,7 +7,8 @@
     "build-no-hash": "cross-env NO_HASH_ENV=true rubik build",
     "build": "rubik build",
     "start": "rubik serve",
-    "lint": "rubik lint"
+    "lint": "rubik lint",
+    "stylelint": "rubik stylelint --fix"
   },
   "keywords": [
     "rubik",
@@ -37,6 +38,7 @@
   "lint-staged": {
     "src/**/*.js": [
       "rubik lint",
+      "rubik stylelint --fix",
       "git add"
     ]
   }
